@@ -1,0 +1,80 @@
+
+.selfInfo-box h3{
+    font-size: 36px;
+    color: #1b1b1b;
+    position: relative;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.selfInfo-box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #999;
+    margin-bottom: 20px;
+}
+.selfInfo-box{
+    padding:80px 0px 60px;
+}
+.self-points p{
+    margin-bottom: 15px;
+}
+.self-points p span{
+    color:#2b2b2b;
+    font-size: 25px;
+    position: relative;
+    top: 4px;
+    margin-right:5px;
+}
+
+hr.border-2 {
+    border-top: 1px solid #999;
+    height: 0px;
+    margin: 40px 0px 20px;
+}
+.sig-img img{
+    width: 80px;
+}
+.sig-text{
+    margin-left: 30px;
+}
+
+.abt-img:before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 45px;
+    bottom: 0;
+    background-color: #2b2b2b;
+    
+}
+.abt-img:after {
+    content: '';
+    width: 50%;
+    position: absolute;
+    top: -7%;
+    bottom: 60%;
+    left: -3%;
+    background-image: url(../assets/images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.abt-img img{
+    position: relative;
+    z-index: 2;
+    background: #1b1b1b;
+    transition: 0.4s;
+}
+.abt-img {
+    padding: 0 30px 30px 15px;
+    position: relative;
+    margin-left: 100px;
+}
+.abt-img img:hover {
+    transform: scale(0.95);
+}
+.selfInfo-box .row{
+    align-items: center;
+    -webkit-align-items: center;
+}

@@ -1,0 +1,104 @@
+#hero-top h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #999;
+    margin-bottom: 5px;
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+    
+}
+#hero-top h1{
+
+        position: relative;
+        margin-bottom: 20px;
+        font-family: 'Jost', sans-serif;
+        font-size: 60px;
+        text-transform: uppercase;
+        line-height: 1.2em;
+        -webkit-animation-delay: .4s;
+        animation-delay: .4s;
+        color: #fff;
+        font-weight: 600;
+    
+}
+#hero-top p{
+    font-size: 18px;
+    line-height: 1.75em;
+    margin-bottom: 40px;
+    color: #999;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+    margin-right: 15px;
+}
+
+.button-primary {
+    display: inline-block;
+    height: auto;
+    padding: 15px 32px;
+    border: 1px solid transparent;
+    border-radius: 80px;
+    background-color: #fff;
+    -webkit-transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
+    transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
+    color: #1b1b1b;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.button-primary:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.button-tersiyer {
+    display: inline-block;
+    height: auto;
+    padding: 15px 32px;
+    border: 1px solid #fff;
+    border-radius: 80px;
+    background-color: transparent;
+    -webkit-transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
+    transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.button-tersiyer:hover{
+    color: #1b1b1b;
+    background-color: #fff;
+}
+.btn-1{
+    margin-right: 15px;
+}
+.hero-con{
+    padding:100px 0px;
+    background-size: 100%;
+    width: 1250px;
+    max-width: 95%;
+    background-size: 100%;
+    background-position: center;
+}
+#hero-top{
+    position: relative;
+}
+#hero-top:after {
+    background-color: #1b1b1b;
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: -1px;
+    width: 100%;
+    -webkit-clip-path: polygon(0% 75%, 0% 0%, 100% 0%, 100% 35%);
+    clip-path: polygon(0% 75%, 0% 0%, 100% 0%, 100% 35%);
+    z-index: -1;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.hero-text{
+    max-width: 1110px;
+    margin: 0 auto;
+}

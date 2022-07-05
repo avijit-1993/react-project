@@ -1,0 +1,43 @@
+#services{
+    background: #1b1b1b;
+    padding: 60px 0px 0px;
+}
+.services-head p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+    position: relative;
+    line-height: 1.75em;
+    margin-bottom: 30px;
+}
+
+.s-box-container{
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.s-box{
+    flex-basis: 33.333333%;
+    padding:30px;
+    margin-bottom: 30px;
+}
+.srv-name h4{
+    font-size: 21px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.srv-con p{
+    margin-bottom: 0;
+    color: #999;
+}
+.srv-img{
+    margin-bottom: 20px;
+}
+.services-head h2{
+    font-size: 36px;
+    font-family: 'Jost', sans-serif;
+    color: #1b1b1b;
+    position: relative;
+    margin-bottom: 15px;
+}

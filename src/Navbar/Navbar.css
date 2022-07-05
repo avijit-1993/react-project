@@ -1,0 +1,31 @@
+#navbarSupportedContent{
+    justify-content: flex-end;
+}
+a .Active_Link{
+    color: #000;
+}
+
+.navbar-brand img{
+    max-width: 150px;
+}
+.navbar{
+    background: #1b1b1b;
+    padding:18px 0px;
+}
+
+.navbar .navbar-nav .nav-link {
+    
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+    margin: 5px 5px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+.navbar .navbar-nav .nav-link:hover,.navbar .navbar-nav .nav-link.active {
+    
+    color: #fff !important;
+}
+.navbar .navbar-nav .nav-link {
+    margin: 8px 8px;
+}
